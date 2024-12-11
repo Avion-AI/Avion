@@ -3,62 +3,6 @@
 ## Overview
 AVION is an advanced AI-powered token generation framework that leverages neural networks and machine learning to create sophisticated cryptocurrency assets.
 
-## Directory Structure 
-
-bash
-avion/
-├── core/
-│ ├── init.py
-│ ├── engine.py
-│ ├── processor.py
-│ ├── validators.py
-│ └── config/
-│ ├── settings.py
-│ └── constants.py
-├── ai/
-│ ├── models/
-│ │ ├── claude/
-│ │ │ ├── processor.py
-│ │ │ └── tokenizer.py
-│ │ └── leonardo/
-│ │ ├── generator.py
-│ │ └── optimizer.py
-│ ├── training/
-│ │ ├── datasets/
-│ │ └── weights/
-│ └── utils/
-│ ├── preprocessing.py
-│ └── augmentation.py
-├── web/
-│ ├── static/
-│ │ ├── css/
-│ │ ├── js/
-│ │ └── assets/
-│ └── templates/
-│ ├── index.html
-│ ├── generator.html
-│ └── whitepaper.html
-├── services/
-│ ├── market_analyzer.py
-│ ├── name_generator.py
-│ ├── image_processor.py
-│ └── token_validator.py
-├── utils/
-│ ├── logger.py
-│ ├── security.py
-│ └── helpers.py
-├── tests/
-│ ├── unit/
-│ │ ├── test_engine.py
-│ │ └── test_processor.py
-│ └── integration/
-│ ├── test_api.py
-│ └── test_generation.py
-└── scripts/
-├── setup.py
-├── train.py
-└── deploy.py
-
 ## Installation
 
 bash
